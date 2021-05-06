@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #184e77;
+}
+.img2{
+height: 400px;
+width: 400px;
+position: absolute;
+left: 800px;
+}
+.img2:hover{
+    z-index:2;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);  
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+
+
+}
+
+.container{
+
+width: 500px;
+height: 500px;
+left: -200px;
+background-color:#1a759f;
+position: relative;
+margin: 55px auto;
+border-radius: 15px;
+}
+#input{
+    width: 360px;
+    height: 40px;
+    position: relative;
+    justify-items: center;
+    text-align: left;
+    padding-left: 10px;
+ margin-top: 50px;
+ margin-left: 50px;
+ margin-right: 15px;
+ border-radius: 15px;
+ outline: none;
+ border: none;
+ background: #34a0a4;
+ font-family: monospace;
+ font-size: 1.1rem;
+ color: white;
+}
+input::placeholder {
+    color: white;
+  }
+  input:hover{
+    z-index:2;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);  
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+
+  }
+#button{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 56px;
+    left: 435px;
+    outline: none;
+    border: none;
+    background-image: url(tick.svg);
+ 
+}
+#button:hover{
+    z-index:2;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);  
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.img1{
+height: 200px;
+width: 200px;
+position: absolute;
+left:20px;
+top: 320px;
+}
+.img1:hover{
+    z-index:2;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);  
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+.gag{
+    width: 343px;
+    height: 23px;
+    position: relative;
+    justify-items: center;
+    text-align: left;
+    padding-left: 10px;
+ margin-top: 15px;
+ margin-left: 60px;
+ margin-right: 15px;
+ background-color: #34a0a4;
+ color: white;
+ padding-top: 7px;
+list-style: none;
+border-radius: 10px;
+font-family: monospace;
+
+}
+.aga{
+    width: 343px;
+    height: 23px;
+    position: relative;
+    justify-items: center;
+    text-align: left;
+    padding-left: 10px;
+ margin-top: 15px;
+ margin-left: 60px;
+ margin-right: 15px;
+ background-color: #40916c;
+ color: white;
+ padding-top: 7px;
+list-style: none;
+border-radius: 10px;
+font-family: monospace;
+
+}
+ .div{
+     color: white;
+     font-size: 1.5rem;
+ }
+
+.green{
+   background-color: green;
+}
+.cancel{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 3px;
+   left: 375px;
+   position: absolute;
+}
+.containerNew1{
+    height: 28px;
+    width: 350px;
+    position: absolute;
+    background: #1a759f;
+    ;
+    left: 65px;
+}
